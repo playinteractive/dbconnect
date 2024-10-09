@@ -2,15 +2,22 @@
     "name": "stage/dbconnect",
     "type": "library",
     "description": "MySQLi connection class for Stage Framework.",
-    "homepage": "https://github.com/playinteractive/dbconnect",
+    "homepage": "https://stage.work",
     "license": "MIT",
     "authors": [
         {
             "name": "Salvador Baqués",
             "email": "salva@email5.com",
-            "homepage": "https://stage.work",
+            "homepage": "https://salva.dev",
             "role": "Developer"
         }
+    ],
+    "support": {
+        "issues": "https://github.com/playinteractive/dbconnect/issues",
+        "source": "https://github.com/playinteractive/dbconnect"
+    },
+    "keywords": [
+        "mysqli", "php", "connection", "stage framework", "database", "connect", "db"
     ],
     "minimum-stability": "stable",
     "require": {
