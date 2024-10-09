@@ -1,7 +1,7 @@
 {
     "name": "stage/dbconnect",
     "type": "library",
-    "description": "MySQLi connection class for Stage Framework.",
+    "description": "Database connection for Stage Framework.",
     "homepage": "https://stage.work",
     "license": "MIT",
     "authors": [
