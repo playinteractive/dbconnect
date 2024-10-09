@@ -56,8 +56,8 @@ class DBConnect
     {
         $results = [];
 
-        if ($this->mysqli->multi_query($query)) {
-
+        if ($this->mysqli->multi_query($query))
+        {
             do {
 
                 if ($result = $this->mysqli->store_result()) {
