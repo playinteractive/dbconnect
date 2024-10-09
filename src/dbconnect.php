@@ -40,6 +40,7 @@ class DBConnect
             if ($free) {
 
                 $this->results[] = $result;
+
                 return $result;
 
             } else {
