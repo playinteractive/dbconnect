@@ -63,6 +63,7 @@ class DBConnect
                 if ($result = $this->mysqli->store_result()) {
 
                     $results[] = $result;
+
                     $result->free();
                 }
 
