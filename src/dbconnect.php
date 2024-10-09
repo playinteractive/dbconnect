@@ -6,6 +6,13 @@
  * @package   https://github.com/playinteractive
  */
 
+/*
+╔══════════════════════════════════════════════════════════════════════
+║  STAGE ~ DATABASE ≡ dbconnect.php
+╠══════════════════════════════════════════════════════════════════════
+║
+*/
+
 namespace Stage;
 
 class DBConnect
