@@ -42,8 +42,8 @@ class DBConnect
 
         if ($result === false) throw new \Exception($this->mysqli->error);
 
-        if ($result instanceof \mysqli_result) {
-
+        if ($result instanceof \mysqli_result)
+        {
             if ($free) {
 
                 $this->results[] = $result;
@@ -67,10 +67,9 @@ class DBConnect
         {
             do {
 
-                if ($result = $this->mysqli->store_result())
-                {
-                    $results[] = $result;
+                if ($result = $this->mysqli->store_result()) {
 
+                    $results[] = $result;
                     $result->free();
                 }
 
